@@ -13,18 +13,18 @@ config.front_end = 'WebGpu'
 
 config.font = wezterm.font 'JetBrains Mono'
 config.color_scheme = 'One Half Black (Gogh)'
-config.window_background_image_hsb = {
-  brightness = 0.3
-}
+
 config.background = {
   {
     source = {
-      File = 'C:\\Users\\Nick\\Pictures\\backgound.png'
+      File = 'C:\\Users\\Nick\\Pictures\\terback.jpg'
     },
+    horizontal_align = 'Center',
     attachment = 'Fixed',
     hsb = {
-      brightness = 0.15,
-    }
+      brightness = 0.3,
+    },
+    opacity = 0.95
   }
 }
 config.use_fancy_tab_bar = false
